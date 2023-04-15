@@ -11,9 +11,7 @@ public class First1 {
   public void f() {
 	 System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\chromedriver.exe");  
 		WebDriver driver = new ChromeDriver();  
-		//ChromeOptions chromeOptions = new ChromeOptions();
-		 //chromeOptions.addArguments("--remote-allow-origins=*");
-		 //ChromeDriver driver = new ChromeDriver(chromeOptions);
+		
 	      
 	// Launch website  
 	    driver.navigate().to("http://www.edureka.co/");  
